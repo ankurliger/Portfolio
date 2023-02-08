@@ -18,14 +18,15 @@ function Contact() {
               <TextField
                 fullWidth
                 sx={{ border: "1px solid grey", color: "white" }}
-                value="First Name"
+                label="First Name"
+                
               />
             </Grid>
             <Grid item xs={6}>
               <TextField
                 fullWidth
                 sx={{ border: "1px solid grey", color: "white" }}
-                value="Last Name"
+                label="Last Name"
               />
             </Grid>
           </Grid>
@@ -33,7 +34,7 @@ function Contact() {
             <TextField
               fullWidth
               sx={{ border: "1px solid grey", color: "white" }}
-              value="Your Email"
+              label="Your Email"
             />
           </Grid>
           <Grid xs={12}>
@@ -44,7 +45,7 @@ function Contact() {
                 color: "white",
                 height: "200px",
               }}
-              value="Your Message"
+              label="Your Message"
             />
           </Grid>
           <Grid xs={12}>
